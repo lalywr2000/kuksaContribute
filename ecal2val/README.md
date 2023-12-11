@@ -1,5 +1,5 @@
 # eCAL Feeder
-The purpose of this implementation is to input data received via eCAL into a `KUKSA.val` databroker. The topics transmitted by eCAL are in the form of protobuf, and based on the VSS description and data outlined in this format, it is possible to provide data to the data broker via the kuksa_client.
+The purpose of this implementation is to input data received via `eCAL` into a `KUKSA.val` databroker. The topics transmitted by eCAL are in the form of protobuf, and based on the VSS description and data outlined in this format, it is possible to provide data to the data broker via the kuksa_client.
 
 ## Usage
 1. Install Python requirements for both eCAL and KUKSA.val

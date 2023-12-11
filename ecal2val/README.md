@@ -39,4 +39,4 @@ sudo apt-get install protobuf-compiler
 protoc --python_out=. vss_data.proto
 ```
 
-This was successfully tested on Raspberry Pi 4B with Raspbian 11 (bullseye) and eCAL 5.12
+This was successfully tested on Ubuntu 20.04 and eCAL 5.12

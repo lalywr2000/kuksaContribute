@@ -11,6 +11,11 @@ pip install python-can
 python3 can2val.py
 ```
 
-This assumes a running `KUKSA.val` databroker at `127.0.0.1:55555`. Also the CAN communication in the device must be in a valid state.
+This assumes a running `KUKSA.val` databroker at `127.0.0.1:55555`. Also the CAN communication in the device must be in a valid state. The following is an example of the setup to initiate CAN communication.
+
+```
+sudo ip link set can0 up type can bitrate 500000
+sudo ifconfig can0 txqueuelen 65536
+```
 
 This was successfully tested on Raspberry Pi 4B with Raspbian 11 (bullseye) and 2-CH CAN FD HAT

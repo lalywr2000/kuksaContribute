@@ -24,7 +24,7 @@ from kuksa_client.grpc import Datapoint
 
 
 '''Matching CAN ID to corresponding VSS.
-   This is an arbitrary example'''
+   This is an example with arbitrary CAN IDs'''
 can_vss_mapping = {0x0F6 : 'Vehicle.Speed',
                    0x0F7 : 'Vehicle.Powertrain.ElectricMotor.Temperature',
                    0x0F8 : 'Vehicle.Chassis.SteeringWheel.Angle'}
